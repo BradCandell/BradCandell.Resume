@@ -1,9 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema id="BradCandell"
-    targetNamespace="http://tempuri.org/BradCandell.xsd"
-    elementFormDefault="qualified"
-    xmlns="http://tempuri.org/BradCandell.xsd"
-    xmlns:mstns="http://tempuri.org/BradCandell.xsd"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
->
+<xs:schema id="BradCandell"  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<!-- Attributes -->
+	<xs:attribute name="title" type="xs:string" />
+
+
+	<!-- Simple Types -->
+	<xs:element name="introduction" type="xs:string" />
+	
+	<xs:element name="resume">
+		<xs:complexType>
+			<xs:sequence>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
 </xs:schema>

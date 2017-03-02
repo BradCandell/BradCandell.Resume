@@ -3,7 +3,10 @@
 
 	<!-- Introductory Statement -->
 	<introduction>
-		TODO HERE
+		As a passionate developer, I am always looking to technology to improve
+		the development experience, enhance the quality of my work and improve the way that 
+		users interact with software. I am proud to consistently strive for excellence in an 
+		all aspects of my career.
 	</introduction>
 
 
@@ -32,7 +35,7 @@
 			<period>
 				<from year="2015" month="10" />
 			</period>
-			<description></description>
+			<description>To Do</description>
 		</job>
 
 		<job title="Web Developer Lead">
@@ -49,9 +52,52 @@
 				<from year="2012" month="4" />
 				<to year="2015" month="10" />
 			</period>
-			<description></description>
+			<description>To Do</description>
 		</job>
 
+		<job title="Application Developer &amp; Architect">
+			<employer>
+				<name>IDEXX Laboratories</name>
+				<location>
+					<address></address>
+					<city>Eau Claire</city>
+					<state>WI</state>
+					<zip></zip>
+				</location>
+			</employer>
+			<period>
+				<from year="2006" month="1" />
+				<to year="2012" month="4" />
+			</period>
+			<description>
+				Develop desktop, server, and web applications for both internal and external customers. 
+				Specialized in highly scalable applications, web services, and a variety of efficiency improving 
+				solutions. I was responsible for the conception and development of several large projects that 
+				created efficiency, customer satisfaction, and revenue throughout the organization.
+			</description>
+		</job>
+
+		<job title="Senior Support Technician">
+			<employer>
+				<name>IDEXX Laboratories</name>
+				<location>
+					<address></address>
+					<city>Eau Claire</city>
+					<state>WI</state>
+					<zip></zip>
+				</location>
+			</employer>
+			<period>
+				<from year="2001" month="9" />
+				<to year="2006" month="1" />
+			</period>
+			<description>
+				As a senior support technician, my role is to aide my fellow associates in call escalation, 
+				customer satisfaction, and training. I was also very active in the testing phase of both 
+				hardware and software additions to the software product for which we supported.
+			</description>
+		</job>
+		
 	</experience>
 
 	<!-- Skills -->
