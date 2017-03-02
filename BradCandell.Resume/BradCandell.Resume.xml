@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resume>
+
+	<!-- Introductory Statement -->
+	<introduction>
+		TODO HERE
+	</introduction>
+
+
+	<!-- Contact Information -->
+	<contacts>
+		<contact type="email">BradCandell@live.com</contact>
+		<contact type="twitter">@BradCandell</contact>
+		<contact type="twitter">@ProgrammingHIT</contact>
+		<contact type="phone">715-559-4794</contact>
+	</contacts>
+
+
+	<!-- Experience & Work History -->
+	<experience>
+
+		<job title="Senior Software Architect">
+			<employer>
+				<name>Group Health Cooperative of Eau Claire / KMTSJ, Inc.</name>
+				<location>
+					<address>2503 N. Hillcrest Parkway</address>
+					<city>Altoona</city>
+					<state>WI</state>
+					<zip>54720</zip>
+				</location>
+			</employer>
+			<period>
+				<from year="2015" month="10" />
+			</period>
+			<description></description>
+		</job>
+
+		<job title="Web Developer Lead">
+			<employer>
+				<name>Group Health Cooperative of Eau Claire / KMTSJ, Inc.</name>
+				<location>
+					<address>2503 N. Hillcrest Parkway</address>
+					<city>Altoona</city>
+					<state>WI</state>
+					<zip>54720</zip>
+				</location>
+			</employer>
+			<period>
+				<from year="2012" month="4" />
+				<to year="2015" month="10" />
+			</period>
+			<description></description>
+		</job>
+
+	</experience>
+
+	<!-- Skills -->
+	<skills>
+
+		<skill title="Web Development">
+			<summary></summary>
+			<item title="HTML/XHTML" />
+			<item title="HTML5" />
+			<item title="CSS" />
+			<item title="SCSS/SASS/LESS" />
+			<item title="Javascript" />
+			<item title="jQuery" />
+			<item title="XML" />
+			<item title="XSLT" />
+			<item title="JSON" />
+			<item title="Bootstrap" />
+			<item title="Zurb Foundation" />
+			<item title="NodeJS" />
+		</skill>
+
+		<skill title="Microsoft">
+			<summary></summary>
+			<item title="C#" />
+			<item title="Visual Basic &amp; VB.NET" />
+			<item title="ASP.NET (WebForms)" />
+			<item title="ASP.NET (MVC)" />
+			<item title="WPF" />
+			<item title="Sharepoint" />
+			<item title="Owin" />
+			<item title=".Net Core" />
+			<item title="Nuget" />
+			<item title="Powershell" />
+			<item title="MEF" />
+			<item title="MSMQ" />
+			<item title="F#" />
+		</skill>
+
+		<skill title="Database">
+			<summary></summary>
+			<item title="Oracle" />
+			<item title="Microsoft SQL Server" />
+			<item title="Amazon Simple DB" />
+			<item title="Microsoft Access" />
+			<item title="PostGreSQL" />
+			<item title="MySQL" />
+			<item title="SyBase" />
+			<item title="MongoDB" />
+			<item title="SSIS" />
+			<item title="SSRS" />
+		</skill>
+
+		<skill title="System Administration">
+			<summary></summary>
+		</skill>
+
+		<skill title="Security">
+			<summary></summary>
+		</skill>
+
+		<skill title="Cloud Technologies">
+			<summary></summary>
+			<item title="Amazon Web Services (AWS)" />
+			<item title="Microsoft Azure" />
+		</skill>
+
+		<skill title="Other">
+			<summary></summary>
+			<item></item>
+		</skill>
+
+	</skills>
+
+	<!-- Community Involvement -->
+	<community>
+		<involvement organization="Cub Scouts (Pack 238)" role="Cubmaster"></involvement>
+		<involvement organization="That Conference" role="Planning Committee &amp; Registration"></involvement>
+		<involvement organization="HIPAA COW (Collaborative of Wisconsin)" role="Planning Committee &amp; Networking Group Co-Chair"></involvement>
+		<involvement organization="Chippewa Valley Code Camp" role="Planner"></involvement>
+	</community>
+
+
+	<!-- Education -->
+	<education>
+		<item type="High School" name="Memorial High School" location="Eau Claire, WI" graduation="1997" />
+	</education>
+
+
+	<!-- Interests and Activities -->
+	<interests>
+		<interest title="Family (4 children)">
+			My wife and I are the proud parents of four wonderful children. Caleb, Grant, Adeline and Grayson. I have
+			the added privelege of being able to raise them in the same home in which I was raised. I am most proud of
+			the values that I have been gifted from my parents, and the luxury of handing them down to each of my children.
+		</interest>
+		<interest title="Camping">
+			My family and I enjoy frequent camping trips to many of Wisconsin's State Parks. Our favorite
+			is Brunet Island State Park (Cornell) and Perrot State Park (Trempealeau).
+		</interest>
+		<interest title="Fishing">
+			My family and I enjoy fishing during all seasons of the year. We usually seek Largemouth Bass,
+			Smallmouth Bass, Northern Pike, and panfish. As much fun as I have catching fish myself, I have
+			found that helping my children catch fish is even more enjoyable.
+		</interest>
+		<interest title="Woodworking">
+			Having learned the basic skills from my Grandfather as a young boy, I have been woodworking for
+			several decades. I have enjoyed building items that vary from small boxes all the way to furniture
+			and cabinets. I have always enjoyed learning new and more difficult skills, and take great pride
+			in my woodworking shop.
+		</interest>
+		<interest title="Remodeling">
+			I am the proud owner of the home for which I was born and raised. After being built in the 1870's, it is
+			certainly somewhat of an antique on its own. Building upon my woodworking skills, I have taught
+			myself how to handle most all aspects of remodeling, from plumbing to drywall.
+		</interest>
+		<interest title="Antique Restoration">
+			As an extension of both Woodworking and Remodeling, I have found great joy in restoring various antiques.
+			I have restored several Stanley Hand Planes, an antique mahogany dining room table set and recently a
+			rare dining room buffet made in 1901. I have also recently purchased an antique sofa/love seat set from
+			1875 that may test my ability to learn new skills!
+		</interest>
+		<interest title="Microcontrollers">
+			Starting with the Arduino and Netduino microcontrollers in 2010, I have enjoyed steadily growing
+			my experience with small electronics and microcontrollers. As a developer, I have always enjoyed
+			the luxury of creating software to do virtually anything. Microcontrollers have provided me with
+			the ability to bring software into the physical world. I have recently began learning more about
+			the Photon/Particle ecosystem. I have recently begun planning a custom CNC machine that I can leverage
+			in my woodworking shop.
+		</interest>
+	</interests>
+
+
+</resume>
