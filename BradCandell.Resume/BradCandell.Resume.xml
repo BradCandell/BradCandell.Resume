@@ -5,8 +5,8 @@
 	<introduction>
 		As a passionate developer, I am always looking to technology to improve
 		the development experience, enhance the quality of my work and improve the way that 
-		users interact with software. I am proud to consistently strive for excellence in an 
-		all aspects of my career.
+		users interact with software. I am proud to consistently strive for excellence in 
+		all aspects of my career, with a strong foundation of self-driven, continued learning.
 	</introduction>
 
 
@@ -21,7 +21,7 @@
 
 	<!-- Experience & Work History -->
 	<experience>
-
+		
 		<job title="Senior Software Architect">
 			<employer>
 				<name>Group Health Cooperative of Eau Claire / KMTSJ, Inc.</name>
@@ -59,10 +59,10 @@
 			<employer>
 				<name>IDEXX Laboratories</name>
 				<location>
-					<address></address>
+					<address>2536 Alpine Rd.</address>
 					<city>Eau Claire</city>
 					<state>WI</state>
-					<zip></zip>
+					<zip>54703</zip>
 				</location>
 			</employer>
 			<period>
@@ -152,10 +152,12 @@
 
 		<skill title="System Administration">
 			<summary></summary>
+			<item title="Another">Brad</item>
 		</skill>
 
 		<skill title="Security">
 			<summary></summary>
+			<item title="Brad"></item>
 		</skill>
 
 		<skill title="Cloud Technologies">
@@ -166,17 +168,29 @@
 
 		<skill title="Other">
 			<summary></summary>
-			<item></item>
+			<item title="Another"></item>
 		</skill>
 
 	</skills>
 
 	<!-- Community Involvement -->
 	<community>
-		<involvement organization="Cub Scouts (Pack 238)" role="Cubmaster"></involvement>
-		<involvement organization="That Conference" role="Planning Committee &amp; Registration"></involvement>
-		<involvement organization="HIPAA COW (Collaborative of Wisconsin)" role="Planning Committee &amp; Networking Group Co-Chair"></involvement>
+		<involvement organization="Cub Scouts (Pack 238)" role="Cubmaster">
+			I am proud to serve as the Cubmaster of Cub Scout Pack 238 in Eau Claire, WI. As the Cubmaster, I am responsible for
+			leading the entire Pack into success. With a long history of scouting myself, it was very easy to offer my experience
+			when called upon. I have the privilege of guiding both a leadership team and the scouts themselves into strengthening 
+			the skills and values of the scouting organization.
+		</involvement>
+		<involvement organization="That Conference" role="Planning Committee &amp; Registration">
+			I have the privilege of 
+		</involvement>
+		<involvement organization="HIPAA COW (Collaborative of Wisconsin)" role="Planning Committee &amp; Networking Group Co-Chair">
+			
+		</involvement>
 		<involvement organization="Chippewa Valley Code Camp" role="Planner"></involvement>
+		<involvement organization="Chippewa Valley Technical College (CVTC)" role="Advisory Chair">
+			I have been serving as the "Advisory Committe Chair" for the 
+		</involvement>
 	</community>
 
 

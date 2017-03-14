@@ -1,18 +1,174 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="BradCandell"  xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-	<!-- Attributes -->
-	<xs:attribute name="title" type="xs:string" />
-
-
-	<!-- Simple Types -->
-	<xs:element name="introduction" type="xs:string" />
-	
+	<!-- (Complete) Resume Type -->
 	<xs:element name="resume">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element name="introduction" minOccurs="1" maxOccurs="1" />
+				<xs:element name="contacts" type="Contacts" minOccurs="0" maxOccurs="1" />
+				<xs:element name="experience" type="Experience" minOccurs="1" maxOccurs="1" />
+				<xs:element name="skills" type="Skills" minOccurs="1" maxOccurs="1" />
+				<xs:element name="community" type="Community" minOccurs="0" maxOccurs="1" />
+				<xs:element name="education" type="Education" minOccurs="1" maxOccurs="1" />
+				<xs:element name="interests" type="Interests" minOccurs="0" maxOccurs="1" />
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+
+
+	
+	
+	<!-- Contact Information -->
+	<xs:complexType name="Contacts">
+		<xs:sequence>
+			<xs:element name="contact" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="type">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="email" />
+										<xs:enumeration value="phone" />
+										<xs:enumeration value="twitter" />
+										<xs:enumeration value="facebook" />
+										<xs:enumeration value="github" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:attribute>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<!-- Experience -->
+	<xs:complexType name="Experience">
+		<xs:sequence>
+			<xs:element name="job" minOccurs="1" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="employer" minOccurs="1" maxOccurs="1">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="name" type="xs:string" />
+									<xs:element name="location">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="address" />
+												<xs:element name="city" />
+												<xs:element name="state" />
+												<xs:element name="zip" />
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="period" minOccurs="1" maxOccurs="1">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="from" minOccurs="1" maxOccurs="1">
+										<xs:complexType>
+											<xs:attribute name="year" type="xs:int" use="required" />
+											<xs:attribute name="month" type="xs:int" use="required" />
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="to" minOccurs="0" maxOccurs="1">
+										<xs:complexType>
+											<xs:attribute name="year" type="xs:int" use="required" />
+											<xs:attribute name="month" type="xs:int" use="required" />
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="description" type="xs:string" minOccurs="1" maxOccurs="1" />
+					</xs:sequence>
+					<xs:attribute name="title" type="xs:string" use="required" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<!-- Skills -->
+	<xs:complexType name="Skills">
+		<xs:sequence>
+			<xs:element name="skill" minOccurs="1" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="summary" type="xs:string" minOccurs="0" maxOccurs="1" />
+						<xs:element name="item" minOccurs="1" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:simpleContent>
+									<xs:extension base="xs:string">
+										<xs:attribute name="title" type="xs:string" use="required" />
+									</xs:extension>
+								</xs:simpleContent>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="title" type="xs:string" use="required" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<!-- Community Involvement -->
+	<xs:complexType name="Community">
+		<xs:sequence>
+			<xs:element name="involvement" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="organization" type="xs:string" use="required" />
+							<xs:attribute name="role" type="xs:string" />
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- Education -->
+	<xs:complexType name="Education">
+		<xs:sequence>
+			<xs:element name="item" minOccurs="1" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:attribute name="type" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="High School" />
+								<xs:enumeration value="College" />
+								<xs:enumeration value="Technical College" />
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute name="name" type="xs:string" use="required" />
+					<xs:attribute name="location" type="xs:string" use="optional" />
+					<xs:attribute name="graduation" type="xs:int" use="required" />
+					
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<!-- Interests -->
+	<xs:complexType name="Interests">
+		<xs:sequence>
+			<xs:element name="interest" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="title" type="xs:string" use="required" />
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
 	
 </xs:schema>
