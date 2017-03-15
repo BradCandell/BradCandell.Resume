@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<resume>
+<resume name="Brad Candell" title="Senior Software/Application Architect">
 
 	<!-- Introductory Statement -->
 	<introduction>
+		<![CDATA[
 		As a passionate developer, I am always looking to technology to improve
 		the development experience, enhance the quality of my work and improve the way that 
 		users interact with software. I am proud to consistently strive for excellence in 
 		all aspects of my career, with a strong foundation of self-driven, continued learning.
+		]]>
 	</introduction>
 
 
