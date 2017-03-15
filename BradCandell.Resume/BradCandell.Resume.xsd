@@ -4,7 +4,8 @@
 	<!-- (Complete) Resume Type -->
 	<xs:element name="resume">
 		<xs:complexType>
-			<xs:sequence>
+			<xs:all>
+				<xs:element name="biography" type="Biography" minOccurs="1" maxOccurs="1" />
 				<xs:element name="introduction" minOccurs="1" maxOccurs="1" />
 				<xs:element name="contacts" type="Contacts" minOccurs="0" maxOccurs="1" />
 				<xs:element name="experience" type="Experience" minOccurs="1" maxOccurs="1" />
@@ -12,14 +13,20 @@
 				<xs:element name="community" type="Community" minOccurs="0" maxOccurs="1" />
 				<xs:element name="education" type="Education" minOccurs="1" maxOccurs="1" />
 				<xs:element name="interests" type="Interests" minOccurs="0" maxOccurs="1" />
-			</xs:sequence>
-			<xs:attribute name="name" type="xs:string" use="required" />
-			<xs:attribute name="title" type="xs:string" use="required" />
+			</xs:all>
 		</xs:complexType>
 	</xs:element>
 
 
-	
+	<!-- Biography -->
+	<xs:complexType name="Biography">
+		<xs:all>
+			<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
+			<xs:element name="title" type="xs:string" minOccurs="1" maxOccurs="1" />
+			<xs:element name="image" type="xs:string" minOccurs="0" maxOccurs="1" />
+			<xs:element name="location" type="xs:string" minOccurs="0" maxOccurs="1" />
+		</xs:all>
+	</xs:complexType>
 	
 	<!-- Contact Information -->
 	<xs:complexType name="Contacts">
@@ -51,27 +58,27 @@
 		<xs:sequence>
 			<xs:element name="job" minOccurs="1" maxOccurs="unbounded">
 				<xs:complexType>
-					<xs:sequence>
+					<xs:all>
 						<xs:element name="employer" minOccurs="1" maxOccurs="1">
 							<xs:complexType>
-								<xs:sequence>
+								<xs:all>
 									<xs:element name="name" type="xs:string" />
 									<xs:element name="location">
 										<xs:complexType>
-											<xs:sequence>
+											<xs:all>
 												<xs:element name="address" />
 												<xs:element name="city" />
 												<xs:element name="state" />
 												<xs:element name="zip" />
-											</xs:sequence>
+											</xs:all>
 										</xs:complexType>
 									</xs:element>
-								</xs:sequence>
+								</xs:all>
 							</xs:complexType>
 						</xs:element>
 						<xs:element name="period" minOccurs="1" maxOccurs="1">
 							<xs:complexType>
-								<xs:sequence>
+								<xs:all>
 									<xs:element name="from" minOccurs="1" maxOccurs="1">
 										<xs:complexType>
 											<xs:attribute name="year" type="xs:int" use="required" />
@@ -84,11 +91,11 @@
 											<xs:attribute name="month" type="xs:int" use="required" />
 										</xs:complexType>
 									</xs:element>
-								</xs:sequence>
+								</xs:all>
 							</xs:complexType>
 						</xs:element>
 						<xs:element name="description" type="xs:string" minOccurs="1" maxOccurs="1" />
-					</xs:sequence>
+					</xs:all>
 					<xs:attribute name="title" type="xs:string" use="required" />
 				</xs:complexType>
 			</xs:element>

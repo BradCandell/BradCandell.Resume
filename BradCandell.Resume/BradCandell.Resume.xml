@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<resume name="Brad Candell" title="Senior Software/Application Architect">
+<resume>
 
+	<!-- Biography -->
+	<biography>
+		<name>Brad Candell</name>
+		<title>Senior Software/Application Architect</title>
+		<location>Eau Claire, WI</location>
+	</biography>
+	
+	
 	<!-- Introductory Statement -->
 	<introduction>
 		<![CDATA[
