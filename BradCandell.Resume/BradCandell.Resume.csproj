@@ -44,6 +44,7 @@
     <Content Include="Transforms\BradCandell.Resume.HTML.xslt" />
     <Content Include="Transforms\BradCandell.Resume.JSON.xslt" />
     <Content Include="Transforms\BradCandell.Resume.PDF.xslt" />
+    <Content Include="Transforms\BradCandell.Resume.Word.xslt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
