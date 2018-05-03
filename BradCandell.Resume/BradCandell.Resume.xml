@@ -38,10 +38,11 @@
 				<from year="2015" month="10" />
 			</period>
 			<description>
-        Though my title suggests primarily focusing on software architecture, the continuous needs of the organization led to 
-        leveraging my skills in security, analysis, administration and database. I enjoy designing solutions that allow the 
-        team to continue to grow and innovate, while maintaining the highest level of performance and reliability. 
-      </description>
+				Though my title suggests primarily focusing on software architecture, the continuous needs 
+				of the organization led to leveraging my skills in security, analysis, administration and 
+				database. I enjoy designing solutions that allow the team to continue to grow and innovate, 
+				while maintaining the highest level of performance and reliability. 
+			</description>
 		</job>
 
 		<job title="Web Developer Lead">
@@ -59,11 +60,11 @@
 				<to year="2015" month="10" />
 			</period>
 			<description>
-        Created, maintained and supported four separate public-facing web properties. While my primary focus 
-        when hired was on web development, my security and administration background was quickly realized and 
-        leveraged in all aspects of the business. I was key to implementing agile, drastic security improvements, 
-        virtualization, hiring and much more. 
-      </description>
+				Created, maintained and supported four separate public-facing web properties. While my 
+				primary focus when hired was on web development, my security and administration background 
+				was quickly realized and leveraged in all aspects of the business. I was key in implementing 
+				agile, drastic security improvements, virtualization, hiring and much more. 
+			</description>
 		</job>
 
 		<job title="Application Developer &amp; Architect">
@@ -106,8 +107,8 @@
 				As a senior support technician, my role is to aide my fellow associates in call escalation, 
 				customer satisfaction, and training. I was also very active in the testing phase of both 
 				hardware and software additions to the software product for which we supported. During this phase I
-        developed several automation tools that increased the efficiency, as well as a dynamic knowledgebase 
-        system that is still being utilized today.
+				developed several automation tools that increased the efficiency, as well as a dynamic knowledgebase 
+				system that is still being utilized today.
 			</description>
 		</job>
 		
@@ -118,10 +119,9 @@
 
 		<skill title="Web Development">
 			<summary>
-        <![CDATA[
-        
-        ]]>
-      </summary>
+				<![CDATA[
+				]]>
+			</summary>
 			<item title="HTML/XHTML" />
 			<item title="HTML5" />
 			<item title="CSS" />
@@ -138,10 +138,9 @@
 
 		<skill title="Microsoft">
 			<summary>
-        <![CDATA[
-        
-        ]]>
-      </summary>
+				<![CDATA[
+				]]>
+			</summary>
 			<item title="C#" />
 			<item title="Visual Basic &amp; VB.NET" />
 			<item title="ASP.NET (WebForms)" />
@@ -155,14 +154,14 @@
 			<item title="MEF" />
 			<item title="MSMQ" />
 			<item title="F#" />
+			<item title="Team Foundation Server (TFS)" />
 		</skill>
 
 		<skill title="Database">
 			<summary>
-        <![CDATA[
-        
-        ]]>
-      </summary>
+				<![CDATA[
+				]]>
+			</summary>
 			<item title="Oracle" />
 			<item title="Microsoft SQL Server" />
 			<item title="Amazon Simple DB" />
@@ -173,81 +172,80 @@
 			<item title="MongoDB" />
 			<item title="SSIS" />
 			<item title="SSRS" />
-      <item title="Sharepoint" />
+			<item title="Sharepoint" />
 		</skill>
 
 		<skill title="System Administration">
 			<summary>
-        <![CDATA[
-        
-        ]]>
-      </summary>
+				<![CDATA[
+				]]>
+			</summary>
 			<item title="Microsoft Exchange / Office 365" />
-      <item title="Active Directory" />
-      <item title="Desktop Management" />
-      <item title="Virtualization (VMware &amp; Hyper-V)" />
-      <item title="Storage (NetApp &amp; Equallogic)" />
-      <item title="Mitel Telephony Infrastructure" />
-      <item title="System Monitoring with Zabbix" />
-      <item title="Operational Automation" />
-      <item title="Business Continuity &amp; Disaster Recovery" />
-      <item title="High Availability" />
-      <item title="Distributed File Systems" />
+			<item title="Active Directory" />
+			<item title="Desktop Management" />
+			<item title="Virtualization (VMware &amp; Hyper-V)" />
+			<item title="Storage (NetApp &amp; Equallogic)" />
+			<item title="Mitel Telephony Infrastructure" />
+			<item title="System Monitoring with Zabbix" />
+			<item title="Operational Automation" />
+			<item title="Business Continuity &amp; Disaster Recovery" />
+			<item title="High Availability" />
+			<item title="Distributed File Systems" />
 		</skill>
 
 		<skill title="Security">
 			<summary>
-        <![CDATA[
-        
-        ]]>
-      </summary>
-      <item title="Cisco Email Security Appliance (ESA)" />
-      <item title="Firewall Management" />
-      <item title="Physical Access Controls (Secura-Key &amp; Infinias)" />
-      <item title="Wiegand Interfaces" />
-      <item title="Role Based Access Controls" />
-      <item title="OAuth / OpenID / JWT" />
-      <item title="PKI" />
-      <item title="Bouncy Castle Encryption" />
-      <item title="HIPAA" />
-      <item title="PCI" />
-      <item title="Security &amp; Compliance Staff Education" />
+				<![CDATA[
+				]]>
+			</summary>
+			<item title="Cisco Email Security Appliance (ESA)" />
+			<item title="Firewall Management" />
+			<item title="Physical Access Controls (Secura-Key &amp; Infinias)" />
+			<item title="Wiegand Interfaces" />
+			<item title="Penetration Testing (Metasploit)" />
+			<item title="Social Engineering" />
+			<item title="X509" />
+			<item title="Role Based Access Controls" />
+			<item title="OAuth / OpenID / JWT" />
+			<item title="PKI" />
+			<item title="Bouncy Castle Encryption" />
+			<item title="HIPAA" />
+			<item title="PCI" />
+			<item title="Security &amp; Compliance Staff Education" />
 		</skill>
 
 		<skill title="Cloud Technologies">
 			<summary>
-        <![CDATA[
-        
-        ]]>
-      </summary>
+				<![CDATA[
+				]]>
+			</summary>
 			<item title="Amazon Web Services (AWS)" />
 			<item title="Microsoft Azure" />
-      <item title="Okta" />
-      <item title="Twilio" />
+			<item title="Okta" />
+			<item title="Twilio" />
 		</skill>
 
 		<skill title="Other">
 			<summary>
-        <![CDATA[
-        
-        ]]>
-      </summary>
-      <item title="Github" />
-      <item title="Java" />
-      <item title="RabbitMQ / AMQP" />
-      <item title="Bash" />
-      <item title="Perl" />
-      <item title="Multi-Tenancy" />
-      <item title="Regular Expressions (Regex)" />
-      <item title="Web API Technologies (SOAP/REST)" />
-      <item title="SAML" />
-      <item title="C/C++" />
-      <item title="Low Level TCP/IP" />
-      <item title="X12 (ASC)" />
-      <item title="NCPDP" />
-      <item title="PDE" />
-      <item title="Markdown" />
-      <item title="Near Field Communication (NFC)" />
+				<![CDATA[
+				]]>
+			</summary>
+			<item title="Github" />
+			<item title="Java" />
+			<item title="RabbitMQ / AMQP" />
+			<item title="Bash" />
+			<item title="Perl" />
+			<item title="Multi-Tenancy" />
+			<item title="Regular Expressions (Regex)" />
+			<item title="Web API Technologies (SOAP/REST)" />
+			<item title="SAML" />
+			<item title="C/C++" />
+			<item title="Low Level TCP/IP" />
+			<item title="X12 (ASC)" />
+			<item title="NCPDP" />
+			<item title="PDE" />
+			<item title="Markdown" />
+			<item title="Near Field Communication (NFC)" />
 		</skill>
 
 	</skills>
@@ -255,45 +253,49 @@
 	<!-- Community Involvement -->
 	<community>
 		<involvement organization="Cub Scouts (Pack 238)" role="Cubmaster">
-			I am proud to serve as the Cubmaster of Cub Scout Pack 238 in Eau Claire, WI. As the Cubmaster, I am responsible for
-			leading the entire Pack into success. With a long history of scouting myself, it was very easy to offer my experience
-			when called upon. I have the privilege of guiding both a leadership team and the scouts themselves into strengthening 
-			the skills and values of the scouting organization.
+			I am proud to serve as the Cubmaster of Cub Scout Pack 238 in Eau Claire, WI. As the Cubmaster, I am 
+			responsible for	leading the entire Pack into success. With a long history of scouting myself, it was 
+			very easy to offer my experience when called upon. I have the privilege of guiding both a leadership 
+			team and the scouts themselves into strengthening the skills and values of the scouting organization.
       
-      Starting in 2017, we added a (Frontier) Girls troop to our organization to provide equal opportunities for girls 
-      interested in scouting. This rather unorthodox approach has yielded incredible growth and set the stage for having
-      completely integrated scouting units.
+			Starting in 2017, we added a (Frontier) Girls troop to our organization to provide equal opportunities 
+			for girls interested in scouting. This rather unorthodox approach has yielded incredible growth and 
+			set the stage for having completely integrated scouting units.
 		</involvement>
 		<involvement organization="That Conference" role="Planning Committee &amp; Registration">
-      I have the privilege of being part of the team responsible for holding one of the Midwest's largest developer
-      conference. "That Conference" is held each year in the Wisconsin Dells, and provides ample learning opportunities for
-      over 1200 conference attendees (and their families) to learn about nearly all technologies and platforms. As the conference 
-      has grown, the need to specialize has moved me into focusing largely on the registration process at the event. All of the 
-      tools to support the conference have been developed internally, and the registration has changed considerably since the 
-      first conference.
+			I have the privilege of being part of the team responsible for holding one of the Midwest's largest 
+			developer conference. "That Conference" is held each year in the Wisconsin Dells, and provides ample 
+			learning opportunities for over 1200 conference attendees (and their families) to learn about nearly 
+			all technologies and platforms. As the conference has grown, the need to specialize has moved me into 
+			focusing largely on the registration process at the event. All of the tools to support the conference 
+			have been developed internally, and the registration has changed considerably since the first conference.
 
-      I enjoy the (often exhausting) opportunity to talk and/or meet a large number of campers and their families during the 
-      registration process and get to know their roles, technological interests and what they are most excited to learn about
-      during the conference.
-    </involvement>
+			I enjoy the (often exhausting) opportunity to talk and/or meet a large number of campers and their 
+			families during the registration process and get to know their roles, technological interests and 
+			what they are most excited to learn about during the conference.
+		</involvement>
 		<involvement organization="HIPAA COW (Collaborative of Wisconsin)" role="Planning Committee &amp; Networking Group Co-Chair">
-      After starting in my role at Group Health, I found it surprisingly impossible to locate avenues for IT professionals to collaborate
-      on the impact of HIPAA on technology. I quickly found that areas that I thought would be technical (ie. Security) were often more
-      geared to policy and compliance, and less about the technologies that must enforce them.
+			After starting in my role at Group Health, I found it surprisingly impossible to locate avenues for IT 
+			professionals to collaborate on the impact of HIPAA on technology. I quickly found that areas that I 
+			thought would be technical (ie. Security) were often more geared to policy and compliance, and less 
+			about the technologies that must enforce them.
 
-      I reached out to the President of the HIPAA COW organization in the hopes of forming a technology-specific networking group that
-      provided a collaborative space for IT technologists to discuss the aspects of the law and how they have met its requirements.
+			I reached out to the President of the HIPAA COW organization in the hopes of forming a technology-specific 
+			networking group that provided a collaborative space for IT technologists to discuss the aspects of the law 
+			and how they have met its requirements.
 
-      In addition to my role as the Co-Chair of the HIPAA COW Healthcare IT Networking Group, I am involved in planning each of the
-      bi-annual conferences held throughout the state of Wisconsin. I am proud to have added a completely separate track to the conferences
-      for strictly IT content, which has led to significant growth in conference attendance.
-    </involvement>
+			In addition to my role as the Co-Chair of the HIPAA COW Healthcare IT Networking Group, I am involved in 
+			planning each of the bi-annual conferences held throughout the state of Wisconsin. I am proud to have added 
+			a completely separate track to the conferences for strictly IT content, which has led to significant growth 
+			in conference attendance.
+		</involvement>
 		<involvement organization="Chippewa Valley Technical College (CVTC)" role="Advisory Chair">
-      I have been serving as the "Advisory Committee Chair" for the Chippewa Valley Technical College's IT Software Developer program
-      for nearly 12 years. In my role I am responsible for leading a group of industry representatives in helping the program shape its
-      annual curriculum. Each semester we review the technologies that will be taught and help the college understand the demands we
-      are experiencing within the Chippewa Valley.
-    </involvement>
+			I have been serving as the "Advisory Committee Chair" for the Chippewa Valley Technical College's IT 
+			Software Developer program for nearly 12 years. In my role I am responsible for leading a group of 
+			industry representatives in helping the program shape its annual curriculum. Each semester we review 
+			the technologies that will be taught and help the college understand the demands we are experiencing 
+			within the Chippewa Valley.
+		</involvement>
 	</community>
 
 
@@ -306,10 +308,10 @@
 	<!-- Interests and Activities -->
 	<interests>
 		<interest title="Family (4 children)">
-      My wife and I are the proud parents of four wonderful children. Caleb, Grant, Adeline and Grayson. I have
-      the added privilege of being able to raise them in the same home in which I was raised. I am most proud of
-      the values that I have been gifted from my parents, and the luxury of handing them down to each of my children.
-    </interest>
+			My wife and I are the proud parents of four wonderful children. Caleb, Grant, Adeline and Grayson. I have
+			the added privilege of being able to raise them in the same home in which I was raised. I am most proud of
+			the values that I have been gifted from my parents, and the luxury of handing them down to each of my children.
+		</interest>
 		<interest title="Camping">
 			My family and I enjoy frequent camping trips to many of Wisconsin's State Parks. Our favorite
 			is Brunet Island State Park (Cornell) and Perrot State Park (Trempealeau).
