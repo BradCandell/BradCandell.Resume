@@ -15,9 +15,10 @@
 	<!-- Contact Information -->
 	<contacts>
 		<contact type="email">BradCandell@live.com</contact>
-		<contact type="twitter">@BradCandell</contact>
-		<contact type="twitter">@ProgrammingHIT</contact>
-		<contact type="phone">715-559-4794</contact>
+    <contact type="phone">715-559-4794</contact>
+    <contact type="twitter">BradCandell</contact>
+		<contact type="twitter">ProgrammingHIT</contact>
+    <contact type="github">BradCandell</contact>
 	</contacts>
 
 
@@ -257,7 +258,7 @@
 			responsible for	leading the entire Pack into success. With a long history of scouting myself, it was 
 			very easy to offer my experience when called upon. I have the privilege of guiding both a leadership 
 			team and the scouts themselves into strengthening the skills and values of the scouting organization.
-      
+      <![CDATA[<br /><br />]]>
 			Starting in 2017, we added a (Frontier) Girls troop to our organization to provide equal opportunities 
 			for girls interested in scouting. This rather unorthodox approach has yielded incredible growth and 
 			set the stage for having completely integrated scouting units.
@@ -269,21 +270,21 @@
 			all technologies and platforms. As the conference has grown, the need to specialize has moved me into 
 			focusing largely on the registration process at the event. All of the tools to support the conference 
 			have been developed internally, and the registration has changed considerably since the first conference.
-
+      <![CDATA[<br /><br />]]>
 			I enjoy the (often exhausting) opportunity to talk and/or meet a large number of campers and their 
 			families during the registration process and get to know their roles, technological interests and 
 			what they are most excited to learn about during the conference.
 		</involvement>
 		<involvement organization="HIPAA COW (Collaborative of Wisconsin)" role="Planning Committee &amp; Networking Group Co-Chair">
-			After starting in my role at Group Health, I found it surprisingly impossible to locate avenues for IT 
-			professionals to collaborate on the impact of HIPAA on technology. I quickly found that areas that I 
-			thought would be technical (ie. Security) were often more geared to policy and compliance, and less 
-			about the technologies that must enforce them.
-
-			I reached out to the President of the HIPAA COW organization in the hopes of forming a technology-specific 
-			networking group that provided a collaborative space for IT technologists to discuss the aspects of the law 
-			and how they have met its requirements.
-
+      After starting in my role at Group Health, I found it surprisingly impossible to locate avenues for IT
+      professionals to collaborate on the impact of HIPAA on technology. I quickly found that areas that I
+      thought would be technical (ie. Security) were often more geared to policy and compliance, and less
+      about the technologies that must enforce them.
+      <![CDATA[<br /><br />]]>
+      I reached out to the President of the HIPAA COW organization in the hopes of forming a technology-specific
+      networking group that provided a collaborative space for IT technologists to discuss the aspects of the law
+      and how they have met its requirements.
+      <![CDATA[<br /><br />]]>
 			In addition to my role as the Co-Chair of the HIPAA COW Healthcare IT Networking Group, I am involved in 
 			planning each of the bi-annual conferences held throughout the state of Wisconsin. I am proud to have added 
 			a completely separate track to the conferences for strictly IT content, which has led to significant growth 
