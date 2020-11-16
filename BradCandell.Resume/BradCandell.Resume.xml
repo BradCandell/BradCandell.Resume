@@ -7,8 +7,8 @@
 		<title>Senior Software/Application Architect</title>
 		<location>Eau Claire, WI</location>
 	</biography>
-	
-	
+
+
 	<!-- Introductory Statement -->
 	<introduction>
 		<![CDATA[
@@ -23,16 +23,35 @@
 	<!-- Contact Information -->
 	<contacts>
 		<contact type="email">BradCandell@live.com</contact>
-    <contact type="phone">715-559-4794</contact>
-    <contact type="twitter">BradCandell</contact>
+		<contact type="phone">715-559-4794</contact>
+		<contact type="twitter">BradCandell</contact>
 		<contact type="twitter">ProgrammingHIT</contact>
-    <contact type="github">BradCandell</contact>
+		<contact type="github">BradCandell</contact>
 	</contacts>
 
 
 	<!-- Experience & Work History -->
 	<experience>
-		
+		<job title="Senior Software Architect">
+			<employer>
+				<name>PESI</name>
+				<location>
+					<address>3839 White Avenue</address>
+					<city>Eau Claire</city>
+					<state>WI</state>
+					<zip>54703</zip>
+				</location>
+			</employer>
+			<period>
+				<from year="2019" month="5" />
+			</period>
+			<description>
+				At PESI I have been part of a small team working to implement an enterprise-wide business management
+				system to support the businesses ongoing initiatives. Taking a cloud-first approach, the entire platform
+				is written, managed, tested and built in Microsoft Azure. Since completing the initial research and 
+				development, I have begun using my creative skills to lead the frontend development in React/Typescript.
+			</description>
+		</job>
 		<job title="Senior Software Architect">
 			<employer>
 				<name>Group Health Cooperative of Eau Claire / KMTSJ, Inc.</name>
@@ -45,6 +64,7 @@
 			</employer>
 			<period>
 				<from year="2015" month="10" />
+				<to year="2019" month="5" />
 			</period>
 			<description>
 				Though my title suggests primarily focusing on software architecture, the continuous needs 
@@ -120,7 +140,7 @@
 				system that is still being utilized today.
 			</description>
 		</job>
-		
+
 	</experience>
 
 	<!-- Skills -->
@@ -133,6 +153,9 @@
 			</summary>
 			<item title="HTML/XHTML" />
 			<item title="HTML5" />
+			<item title="React" />
+			<item title="React Native" />
+			<item title="Typescript" />
 			<item title="CSS" />
 			<item title="SCSS/SASS/LESS" />
 			<item title="Javascript" />
@@ -143,6 +166,9 @@
 			<item title="Bootstrap" />
 			<item title="Zurb Foundation" />
 			<item title="NodeJS" />
+			<item title="Cypress" />
+			<item title="Jest" />
+			<item title="Storybook" />
 		</skill>
 
 		<skill title="Microsoft">
@@ -164,6 +190,8 @@
 			<item title="MSMQ" />
 			<item title="F#" />
 			<item title="Team Foundation Server (TFS)" />
+			<item title="Azure DevOps" />
+			<item title="Azure B2C" />
 		</skill>
 
 		<skill title="Database">
@@ -221,6 +249,9 @@
 			<item title="HIPAA" />
 			<item title="PCI" />
 			<item title="Security &amp; Compliance Staff Education" />
+			<item title="Identity &amp; Access Management" />
+			<item title="Single Sign-on (SSO)" />
+
 		</skill>
 
 		<skill title="Cloud Technologies">
@@ -248,6 +279,7 @@
 			<item title="Regular Expressions (Regex)" />
 			<item title="Web API Technologies (SOAP/REST)" />
 			<item title="SAML" />
+			<item title="JWT" />
 			<item title="C/C++" />
 			<item title="Low Level TCP/IP" />
 			<item title="X12 (ASC)" />
@@ -261,16 +293,25 @@
 
 	<!-- Community Involvement -->
 	<community>
+
+		<involvement organization="Shawtown Neighborhood Association" role="President">
+			In my role as the President of the (Historic) Shawtown Neighborhood Association, I am responsible for 
+			leading a team of 4 Officers and 4 At-Large Members in supporting initiatives that directly support and 
+			benefit the neighborhood.
+		</involvement>
+
 		<involvement organization="Cub Scouts (Pack 238)" role="Cubmaster">
 			I am proud to serve as the Cubmaster of Cub Scout Pack 238 in Eau Claire, WI. As the Cubmaster, I am 
 			responsible for	leading the entire Pack into success. With a long history of scouting myself, it was 
 			very easy to offer my experience when called upon. I have the privilege of guiding both a leadership 
 			team and the scouts themselves into strengthening the skills and values of the scouting organization.
-      <![CDATA[<br /><br />]]>
-			Starting in 2017, we added a (Frontier) Girls troop to our organization to provide equal opportunities 
-			for girls interested in scouting. This rather unorthodox approach has yielded incredible growth and 
-			set the stage for having completely integrated scouting units.
+      
+			Helping foster a learning, fun Scout-experience for both boy and girl Cub Scouts in the Chippewa Valley. 
+			Our Pack/Unit has grown substantially over, boasting one of the largest groups in the area. Helping adults 
+			and kids build their leadership and teamwork skills while providing youth with opportunities and experiences 
+			that they might not otherwise have access.
 		</involvement>
+
 		<involvement organization="That Conference" role="Planning Committee &amp; Registration">
 			I have the privilege of being part of the team responsible for holding one of the Midwest's largest 
 			developer conference. "That Conference" is held each year in the Wisconsin Dells, and provides ample 
@@ -278,32 +319,45 @@
 			all technologies and platforms. As the conference has grown, the need to specialize has moved me into 
 			focusing largely on the registration process at the event. All of the tools to support the conference 
 			have been developed internally, and the registration has changed considerably since the first conference.
-      <![CDATA[<br /><br />]]>
+
 			I enjoy the (often exhausting) opportunity to talk and/or meet a large number of campers and their 
 			families during the registration process and get to know their roles, technological interests and 
 			what they are most excited to learn about during the conference.
 		</involvement>
+
 		<involvement organization="HIPAA COW (Collaborative of Wisconsin)" role="Planning Committee &amp; Networking Group Co-Chair">
-      After starting in my role at Group Health, I found it surprisingly impossible to locate avenues for IT
-      professionals to collaborate on the impact of HIPAA on technology. I quickly found that areas that I
-      thought would be technical (ie. Security) were often more geared to policy and compliance, and less
-      about the technologies that must enforce them.
-      <![CDATA[<br /><br />]]>
-      I reached out to the President of the HIPAA COW organization in the hopes of forming a technology-specific
-      networking group that provided a collaborative space for IT technologists to discuss the aspects of the law
-      and how they have met its requirements.
-      <![CDATA[<br /><br />]]>
+      		After starting in my role at Group Health, I found it surprisingly impossible to locate avenues for IT
+			professionals to collaborate on the impact of HIPAA on technology. I quickly found that areas that I
+      		thought would be technical (ie. Security) were often more geared to policy and compliance, and less
+      		about the technologies that must enforce them.
+      		
+      		I reached out to the President of the HIPAA COW organization in the hopes of forming a technology-specific
+      		networking group that provided a collaborative space for IT technologists to discuss the aspects of the law
+      		and how they have met its requirements.
+      	
 			In addition to my role as the Co-Chair of the HIPAA COW Healthcare IT Networking Group, I am involved in 
 			planning each of the bi-annual conferences held throughout the state of Wisconsin. I am proud to have added 
 			a completely separate track to the conferences for strictly IT content, which has led to significant growth 
 			in conference attendance.
 		</involvement>
+
 		<involvement organization="Chippewa Valley Technical College (CVTC)" role="Advisory Chair">
 			I have been serving as the "Advisory Committee Chair" for the Chippewa Valley Technical College's IT 
-			Software Developer program for nearly 12 years. In my role I am responsible for leading a group of 
+			Software Developer program for nearly 14 years. In my role I am responsible for leading a group of 
 			industry representatives in helping the program shape its annual curriculum. Each semester we review 
 			the technologies that will be taught and help the college understand the demands we are experiencing 
 			within the Chippewa Valley.
+		</involvement>
+
+		<involvement organization="Eau Claire Area School District (ECASD)" role="Learning Environments and Partnerships (LEAP) Committee Member">
+			The Learning Environments and Partnerships Committee is a standing committee of the ECASD School Board. It was 
+			established to &quot;…encourage innovation, which could increase our ability to provide diverse programming and 
+			methodologies.&quot; The committee created a three-step process for teachers to have the opportunity to imagine, 
+			develop, implement, and interpret an educational program which may not be associated with conventional educational 
+			programs. Those programs become part of the District’s Innovation Zone.
+
+			I am enjoying the opportunity to participate as a Parent-member to a committee dedicated to providing innovative ways
+			to expose more educational programming to the children of Eau Claire.
 		</involvement>
 	</community>
 
@@ -356,6 +410,5 @@
 			in my woodworking shop.
 		</interest>
 	</interests>
-
 
 </resume>

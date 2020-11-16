@@ -30,7 +30,7 @@
 
       <xsl:call-template name="node_str">
         <xsl:with-param name="nm" select="'name'" />
-        <xsl:with-param name="val" select="@name" />
+        <xsl:with-param name="val" select="biography/name" />
       </xsl:call-template>
       <xsl:text>,</xsl:text>
     
